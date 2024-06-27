@@ -1,0 +1,12 @@
+// alert("fuck");
+var dogs = prompt("How many dogs?");
+var food = prompt("How much they eat?");
+var price = prompt("Cost");
+var day = food * price;
+var month = day * 30;
+var year = month * 12;
+// alert(day);
+// alert(month);
+// alert(year);
+alert(day + " " + month + " " + year);
+// document.getElementsByTagName("body")[0].innerText = day;
